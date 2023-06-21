@@ -1,0 +1,20 @@
+body {
+ 
+  text-align: center;
+  /* background-image: url('https://wallpaperaccess.com/full/2019259.jpg'); */
+  background-image: url('https://www.nintenderos.com/wp-content/uploads/2019/02/pokemon-espada-y-escudo.-1.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+  align-items: center;
+  /* padding-top: 90px; */
+  background-attachment: fixed;
+  /* padding-bottom: 50px; */
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+
+.home {
+    margin: 0;
+    text-align: center;
+    /* background-image: url('https://wallpaperaccess.com/full/2019259.jpg'); */
+    background-image: url('https://www.nintenderos.com/wp-content/uploads/2019/02/pokemon-espada-y-escudo.-1.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    min-height: 100vh;
+    align-items: center;
+    padding-top: 90px;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    
+
+}
+.contenedor{
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+
+    flex-wrap: wrap;
+    margin-top: -15px;
+}
+.select{
+    background-attachment: fixed;
+    padding-top: 5px;
+    padding-bottom: 50px;
+   
+}
+.select > * {
+    margin-left: 25px;
+    border-radius: 20%;
+  }
+  .select > select {
+    background-color: #7c73736e;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+ 
+  }
+  
+  .select > select:hover {
+    border-color: #5c4040;
+  }
+  
+  .select > select:focus {
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(85, 85, 85, 0.3);
+  }
+  
+  .select > select::placeholder {
+    color: #999;
+  }
+  .selected {
+    background-color: #000000; /* Cambia el color de fondo según tus necesidades */
+    color: #ffffff; /* Cambia el color del texto según tus necesidades */
+  }
+
+  .all{
+    position: absolute;
+    left: 20px;
+    top:100px;
+    border-radius: 50%;
+    background-color: rgba(255, 99, 71, 0.795);
+    color: rgb(0, 0, 0);
+    height: 30px;
+  }
+  .all:hover{
+    background-color: #a33232;
+  }

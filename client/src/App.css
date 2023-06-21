@@ -1,0 +1,57 @@
+/* body {
+  margin: 0;
+  padding: 0;
+}*/
+.App {
+  margin: 0;
+  text-align: center;
+  /* background-image: url('https://wallpaperaccess.com/full/2019259.jpg'); */
+  background-image: url('https://www.nintenderos.com/wp-content/uploads/2019/02/pokemon-espada-y-escudo.-1.jpg');
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* min-height: 100vh; */
+  align-items: center;
+  /* padding-top: 90px; */
+  background-attachment: fixed;
+  /* padding-bottom: 50px; */
+  
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.loading{
+  width: 120px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

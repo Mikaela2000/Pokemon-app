@@ -1,0 +1,22 @@
+.input{
+    background-color: rgba(138, 135, 135, 0.521);
+    color: white;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    margin-right: 10px; 
+
+}
+.btn{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    background-image: url('https://img.icons8.com/?size=2x&id=12773&format=png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    top:11px;
+  
+    position: relative;
+    
+}

@@ -1,0 +1,245 @@
+.create{
+  margin: 0;
+    /* text-align: center; */
+    background-color: rgb(104, 104, 173);
+    background-attachment: fixed;
+    min-height: 100vh;
+  
+    /* padding-top: 10px; */
+    background-image: url("https://pbs.twimg.com/ext_tw_video_thumb/1506969310627045380/pu/img/XtjT3xcErgrqHuJN.jpg:large");
+    background-size: 100%;
+    background-repeat: no-repeat;
+ 
+    display: flex; /* Utilizar flexbox */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: flex-start;
+    font-family: "Kids", cursive;
+}
+
+.contenedor {
+    background-color: #05333377;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 70px;
+    padding: 15px;
+    position: relative;
+    background-image: url('https://i.gifer.com/origin/4d/4d15eb229e2c8db8dee69efc0d2371e9_w200.webp');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 100% 0px;
+    /* display: flex;
+    flex-direction: column; */
+
+    /* justify-content: center; */
+    color: white;
+    font-size: 14pt;
+    border-radius: 10px;
+    gap: 30px;
+    width: 710px;
+    height: 530px;
+    border: 1px solid white;
+}
+.contenedor:hover{
+    transition: 1s;
+    background-color: #365c5c77;
+}
+.contenedor2{
+    flex-wrap: wrap;
+    margin-top: 1px;
+    flex-direction: column;
+    gap: 5px;
+    height: 100px;
+    background-image: url('https://i.gifer.com/origin/2b/2b8533a9875931b417480331d45e16d4_w200.webp');
+    background-size: 100px;
+    background-repeat: no-repeat;
+}
+.name{
+  padding-top: 30px;
+
+ 
+}
+.name >input{
+  background-color: rgba(0, 0, 0, 0.253);
+  border-radius: 10px;
+  padding-left: 10px;
+  color:white;
+}
+
+.range {
+    width: 100px;
+    display: flex;
+
+    padding-top: 10px;
+    flex-direction: row;
+    margin-top: 20px;
+  
+    height: 20px;
+ 
+    /* background-color: rgba(0, 0, 0, 0.329);  */
+    height: 100px;
+    justify-content: flex-start; /* Mover el contenido a la izquierda */
+  }
+
+  .range> label{
+    padding-top: 35px;
+  }
+  .range > *{
+    margin-left: 27px;
+
+  }
+  .range > span{
+    padding-top: 35px;
+
+  }
+  .range2 {
+    width: 200px;
+    display: flex;
+    margin-top: 3px;
+    padding-top: 10px;
+   
+    /* background-color: rgba(0, 0, 0, 0.329);  */
+    height: 100px;
+    justify-content: flex-start; /* Mover el contenido a la izquierda */
+  }
+  .range2> label{
+    padding-top: 35px;
+  }
+  .range2 > *{
+    margin-left: 20px;
+    /* padding-right: 20px; */
+  }
+  .range2 > span{
+    padding-top: 35px;
+
+  }
+  .range3{
+    width: 200px;
+    display: flex;
+    margin-top: 3px;
+    padding-top: 10px;
+   
+    /* background-color: rgba(0, 0, 0, 0.329);  */
+    height: 100px;
+    justify-content: flex-start; /* Mover el contenido a la izquierda */
+  }
+  .range3> label{
+    padding-top: 35px;
+  }
+  .range3 > *{
+    margin-left: 20px;
+    /* padding-right: 20px; */
+  }
+
+  .range3 > span{
+    padding-top: 35px;
+
+  }
+  .conteinerImg{
+    padding-top: 30px;
+   width: 100%;
+  }
+
+  .type {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -293px; /* Ajusta el valor según sea necesario */
+  }
+  .type> select{
+    background-color: rgba(212, 208, 208, 0.445);
+    color: rgb(3, 3, 3);
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .type>option{
+    background-color: blac;
+  }
+  
+  .divTyp {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px; /* Ajusta el valor según sea necesario */
+  }
+  .divTyp > button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(161, 19, 19);
+    padding-top: 9px;
+  }
+  .buttonCrear {
+    position: absolute;
+    top: 500px;
+    left: 80%;
+    border-radius: 50%;
+    width: 60px;
+    height: 35px;
+    border: solid 1px black;
+    border-bottom: solid 7px black;
+    color: rgb(172, 33, 33);
+    background-color: rgba(231, 12, 12, 0.733);
+    box-shadow: 8px 2px 4px rgba(0, 0, 0, 0.418);
+    transition: all 0.3s ease;
+  }
+  
+
+  
+  .buttonCrear:active {
+    transform: translateY(2px);
+    border-bottom: solid 2px black;
+    box-shadow: 6px 0px 4px rgba(0, 0, 0, 0.418);
+  }
+  
+
+ .conteinerImg {
+  margin-top: 260px;
+  height: 60px; /* Establece una altura fija para el contenedor */
+  overflow: hidden; /* Controla el desbordamiento del contenido */
+}
+
+.conteinerImg input {
+  background-color: rgba(0, 0, 0, 0.226);
+  color: white;
+  border-radius: 10px;
+  width: 40%;
+  padding-top: 0;
+}
+
+.divImg {
+  /* width: 20%; */
+  margin-left: 10%;
+  margin-top: 150px;
+  margin-right: 120px;
+  position: relative;
+  z-index: 1; /* Asegura que el elemento esté por encima del botón */
+  background-image: url("https://i.gifer.com/origin/5f/5f4e2864fd90647ce90e0657c50c2645_w200.webp");
+  background-repeat: no-repeat;
+  background-position: 25px;
+  
+
+}
+.home {
+  width: 5px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  border-radius: 0 10px 10px 0;
+  top: 7px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 3px;
+  background-position: left;
+  transition: width 1s;
+  background-color: rgba(231, 8, 8, 0.836);
+}
+
+.home:hover {
+  background-image: url('https://img.icons8.com/?size=2x&id=2797&format=png');
+  transition: 1s;
+  width: 50px;
+  background-position-x: 10px;
+}
+
+p{
+  font-size: 14px;
+  padding-top: 7px;
+  color: rgb(247, 27, 27);
+}
